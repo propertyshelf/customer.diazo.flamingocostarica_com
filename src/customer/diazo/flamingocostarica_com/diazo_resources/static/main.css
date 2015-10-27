@@ -1,1 +1,374 @@
-/* Stylesheet for the diazo theme. */
+body #content .documentFirstHeading {
+    color: #5c4a3e;
+}
+#global-wrapper .portlet.portlet-collection-news .portletItem .news-image {
+    width: 100%;
+}
+body #portlet-right {
+    margin-top: 25px;
+}
+body #global-wrapper .portlet.portletSearch .portletHeader {
+    text-align: left;
+}
+#global-wrapper .portlet.portlet-collection-news .portletItem span.portletItemDetails {
+    color: #09324b;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-left: 0;
+}
+#global-wrapper .portlet.portlet-collection-news .portletItem a.contenttype-news-item {
+    color: #0b7193;
+    font-family: "Sanchez",serif;
+    font-size: 16px;
+}
+#global-wrapper .portlet.portlet-collection-news .portletItem .news-description a {
+    color: #565757;
+    font-size: 12px;
+}
+#global-wrapper .portlet.portlet-collection-news .portletItem .news-image .tileImage {
+    border-radius: 0 !important;
+    margin: 0;
+    width: auto;
+    float: none !important;
+    background-color: #fff;
+    border: 1px solid #e2e2e1;
+    float: left;
+    padding: 0.5em !important;
+}
+body #global-wrapper .portlet .portletHeader {
+    padding:0 !important;
+}
+body .portlet .portletHeader a {
+    font-size: 18px;
+}
+body #global-wrapper .portlet.portletNews .portletHeader, 
+body #global-wrapper .portlet.portlet-collection-news .portletHeader {
+    padding: 5px 0 !important;
+}
+body #global-wrapper .portlet.portletCalendar {
+    border: medium none;
+}
+body #global-wrapper h2, body #global-wrapper h2 a {
+    color: #5c4a3e;
+}
+.portletCalendar dt a#calendar-previous,
+.portletCalendar dt a#calendarNext {
+    font-size: 20px;
+}
+body h2, body h2 a {
+    color: #5c4a3e;
+    font-size: 24px;
+}
+body #global-wrapper #content-wrapper .portlet .portletHeader {
+    color: #050505;
+    font-family: "Sanchez",serif;
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: normal;
+    padding: 0 10px 20px;
+}
+body #global-wrapper #content-wrapper .portlet.portletCalendar .portletHeader {
+    border-bottom: medium none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+body .improved .name-of-property a {
+    color: #5c4a3e;
+}
+body .improved .status a {
+    color: #5c4a3e;
+}
+body .portlet .portletHeader a, body .portlet .portletHeader span {
+    color: #000 !important;
+}
+body dl.portlet dt {
+    background: transparent none repeat scroll 0 0;
+}
+#global-wrapper #content-wrapper .portlet .portletItem p.full_widht_img {
+    text-align: center;
+}
+#global-wrapper #content-wrapper .portlet.portletNews,
+#global-wrapper #content-wrapper .portlet.portlet-collection-news{
+    border: 1px solid #b9b09f;
+    border-radius: 1em;
+}
+#global-wrapper #content-wrapper .portlet.portletNews .portletHeader,
+#global-wrapper #content-wrapper .portlet.portlet-collection-news .portletHeader{
+    background-color: #ece9e2;
+    border-bottom: 1px solid #b9b09f;
+    border-radius: 9.6px 9.6px 0 0;
+    padding: 5px 0;
+    margin:0;
+}
+#global-wrapper #content-wrapper .portlet.portletNews .portletItem,
+#global-wrapper #content-wrapper .portlet.portlet-collection-news .portletItem{
+    background-color: #f8f5ec;
+    padding: 1em;
+}
+#global-wrapper #content-wrapper .portlet.portletNews .portletHeader span,
+#global-wrapper #content-wrapper .portlet.portlet-collection-news .portletHeader span{
+    color: #050505 !important;
+}
+#global-wrapper #content-wrapper .portlet.portlet-collection-news .portletFooter{
+    background-color: #f8f5ec;
+    padding: 1em;
+    border-radius: 0 0 9.6px 9.6px;
+}
+body #global-wrapper #content-wrapper img.tileImage {
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    padding: 3px;
+}
+body.template-folder_summary_view #content-wrapper-core .tileItem.visualIEFloatFix {
+
+}
+body .documentDescription {
+    color: #5c4a3e !important;
+    font: 14px "Sanchez",serif;
+}
+body #content-wrapper-core h2.tileHeadline a {
+    color: #5c4a3e;
+}
+#portal-logo img {
+    max-width: inherit;
+}
+body #header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8cb566+0,55761d+100 */
+background: rgb(140,181,102); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(140,181,102,1) 0%, rgba(85,118,29,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(140,181,102,1)), color-stop(100%,rgba(85,118,29,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(140,181,102,1) 0%,rgba(85,118,29,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(140,181,102,1) 0%,rgba(85,118,29,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(140,181,102,1) 0%,rgba(85,118,29,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(140,181,102,1) 0%,rgba(85,118,29,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cb566', endColorstr='#55761d',GradientType=0 ); /* IE6-9 */
+}
+body .header_descript p {
+    color: #d8e022;
+    font-family: "Sanchez",serif;
+    font-size: 18px;
+}
+body .site_contact_phone p{
+    color: #fff;
+    font-family: "Sanchez",serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+body .site_contact_phone p a{
+    background-color: #587a25;
+    border-radius: 1em;
+    color: #fff !important;
+    font-size: 16px;
+    padding: 7px 12px;
+}
+body .logo-wrapper .logo {
+    margin-right: 45px;
+}
+body #wrapper-inner .site_contact_phone {
+    background-image: none;
+    margin-left: 45px;
+    margin-top: 42px;
+    padding-left: 0;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#55761d+0,51701c+100 */
+background: rgb(85,118,29); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(85,118,29,1) 0%, rgba(81,112,28,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(85,118,29,1)), color-stop(100%,rgba(81,112,28,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(85,118,29,1) 0%,rgba(81,112,28,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(85,118,29,1) 0%,rgba(81,112,28,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(85,118,29,1) 0%,rgba(81,112,28,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(85,118,29,1) 0%,rgba(81,112,28,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55761d', endColorstr='#51701c',GradientType=0 ); /* IE6-9 */
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 {
+    background-color: transparent !important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation #id_nav1.navbar-collapse {
+    border: medium none;
+    margin:0;
+}
+body .header_descript {
+    float: left;
+    margin-top: 39px;
+}
+body #wrapper-inner #header .navbar {
+    margin:0;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu {
+    background-color: transparent!important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li.selected a.plain{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#474747+0,282828+74,2f2f2f+100 */
+background: rgb(71,71,71); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(71,71,71,1) 0%, rgba(40,40,40,1) 74%, rgba(47,47,47,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(71,71,71,1)), color-stop(74%,rgba(40,40,40,1)), color-stop(100%,rgba(47,47,47,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a.plain:hover{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#474747+0,282828+74,2f2f2f+100 */
+background: rgb(71,71,71); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(71,71,71,1) 0%, rgba(40,40,40,1) 74%, rgba(47,47,47,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(71,71,71,1)), color-stop(74%,rgba(40,40,40,1)), color-stop(100%,rgba(47,47,47,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
+color: #fff !important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a.plain{
+    color: #fff !important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li a{
+    background-color: transparent!important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li{
+    margin:0;
+    background-color: transparent!important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation #id_nav1 ul.navmenu li ul.submenu {
+background: rgb(71,71,71); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(71,71,71,1) 0%, rgba(40,40,40,1) 74%, rgba(47,47,47,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(71,71,71,1)), color-stop(74%,rgba(40,40,40,1)), color-stop(100%,rgba(47,47,47,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(71,71,71,1) 0%,rgba(40,40,40,1) 74%,rgba(47,47,47,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474747', endColorstr='#2f2f2f',GradientType=0 ); /* IE6-9 */
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li ul.submenu li:hover {
+    background-color: #587c28 !important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li ul.submenu li {
+    background-color: transparent!important;
+}
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li ul.submenu li a,
+body.header-normal #global-wrapper #wrapper-inner #navigation .container #id_nav1 ul.navmenu li ul.submenu li a:hover{
+    background-color: transparent!important;
+    color: #fff !important;
+}
+
+body.header-normal #global-wrapper #content-wrapper {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfbfb+0,dfd4b6+100 */
+background: rgb(253,251,251); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(253,251,251,1) 0%, rgba(223,212,182,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,251,251,1)), color-stop(100%,rgba(223,212,182,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(253,251,251,1) 0%,rgba(223,212,182,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(253,251,251,1) 0%,rgba(223,212,182,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(253,251,251,1) 0%,rgba(223,212,182,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(253,251,251,1) 0%,rgba(223,212,182,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfbfb', endColorstr='#dfd4b6',GradientType=0 ); /* IE6-9 */
+
+}
+body #footer-wrapper #footer-top,
+body #footer-wrapper #footer-top #footer-top-inner {
+    background-color: #333;
+}
+body #footer-wrapper #footer-top p,
+body #footer-wrapper #footer-top a {
+    color: #e6dcc0;
+    font-family: "Open Sans",sans-serif;
+    font-size: 11px;
+    line-height: 2em;
+}
+body #footer-wrapper #footer-top #footer-top-inner .doormatColumn h3 {
+    color: #587c28;
+    font-family: "Open Sans",sans-serif;
+}
+body #footer-wrapper #colophone {
+    background-color: #56544e;
+}
+body #footer-wrapper #colophone .colophone-inner {
+    background-color: transparent;
+}
+body h2,
+body h3 {
+    color: #587c28
+}
+body h2 a span {
+    color: #5c4a3e;
+}
+body a,
+body a:hover {
+    color: #d47d28;
+}
+@media (max-width:1199px) and (min-width:1024px){ 
+    body #wrapper-inner .site_contact_phone {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    body .header_descript {
+        margin-top: 14px;
+    }
+    body .logo-wrapper .logo {
+        margin-right: 5%;
+    }
+}
+@media (max-width:1023px) and (min-width:980px){
+    body #wrapper-inner .site_contact_phone {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    body .header_descript {
+        margin-top: 14px;
+    }
+    body .logo-wrapper .logo {
+         width: 33%;
+    }
+}
+@media (max-width:979px) and (min-width:720px){ 
+    body #wrapper-inner .site_contact_phone {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    body .header_descript {
+        margin-top: 14px;
+    }
+    body .logo-wrapper .logo {
+        margin-right: 2%;
+    }
+    .logo-wrapper .logo {
+        float: left;
+        text-align: left;
+    }
+}
+@media (max-width:780px){
+    body .header_descript {
+        display: none;
+    }
+    body #wrapper-inner .site_contact_phone {
+        margin-top: 40px;
+    }
+}
+@media (max-width:600px){
+    body #wrapper-inner .site_contact_phone {
+        display: none;
+    }
+    #portal-logo img {
+        width: 100%;
+    }
+}
+@media (max-width:719px) and (min-width:560px){
+    body .logo-wrapper .logo {
+        margin-right: 2%;
+        float: left;
+    }
+}
+@media (max-width:559px) and (min-width:440px){ 
+    body .logo-wrapper .logo {
+        margin-right: 2%;
+        float: left;
+    }
+}
+@media (max-width:439px) and (min-width:280px){ 
+    body .logo-wrapper .logo {
+        margin-right: 2%;
+        float: left;
+    }
+}

@@ -5,7 +5,7 @@
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
 
-  <rules css:if-content="#visual-portal-wrapper">
+    <rules css:if-content="#visual-portal-wrapper">
 
     <!-- Include ps.diazo.vanilla as a base theme. -->
     <xi:include href="/++theme++ps.diazo.vanilla/rules.xml"/>
@@ -18,8 +18,24 @@
       <script src="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/main.js"></script>
 
       <!--Include Google Fonts. -->
+      <link href='http://fonts.googleapis.com/css?family=Sanchez|Open+Sans' rel='stylesheet' type='text/css' />
     </after>
       
     </rules>
-        
+    <after css:theme-children=".logo-wrapper" method="raw">
+        <div class="header_descript">
+            <p><xsl:value-of select="$header_descript" /></p>
+        </div>
+    </after>
+     
+    <after css:theme-children=".logo-wrapper" method="raw">
+        <div class="site_contact_phone">
+            <p>Contact us:
+                <a href="tel:{$nr_phone}"><xsl:value-of select="$nr_phone_show" /></a>   
+            </p>
+        </div>
+    </after>
+    <drop
+        css:theme="#header-tools"
+    />
 </rules>
