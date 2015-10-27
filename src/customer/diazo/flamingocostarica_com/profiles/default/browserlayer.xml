@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+      name="customer.diazo.flamingocostarica_com"
+      interface="customer.diazo.flamingocostarica_com.interfaces.ICustomerDiazoFlamingocostaricaComLayer"
+      />
+</layers>
