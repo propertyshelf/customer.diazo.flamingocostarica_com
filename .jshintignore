@@ -1,1 +1,2 @@
-src/customer/diazo/flamingocostarica_com/diazo_resources/external/*.js
+src/customer/diazo/flamingocostarica_com/diazo_resources/bootstrap/js/*.js
+src/customer/diazo/flamingocostarica_com/diazo_resources/js/*.js
