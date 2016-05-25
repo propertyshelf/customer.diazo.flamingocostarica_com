@@ -68,7 +68,7 @@ body #global-wrapper .portlet .portletHeader {
 body .portlet .portletHeader a {
     font-size: 18px;
 }
-body #global-wrapper .portlet.portletNews .portletHeader, 
+body #global-wrapper .portlet.portletNews .portletHeader,
 body #global-wrapper .portlet.portlet-collection-news .portletHeader {
     padding: 5px 0 !important;
 }
@@ -325,7 +325,7 @@ body a,
 body a:hover {
     color: #d47d28;
 }
-@media (max-width:1199px) and (min-width:1024px){ 
+@media (max-width:1199px) and (min-width:1024px){
     body #wrapper-inner .site_contact_phone {
         margin-left: 0;
         margin-top: 0;
@@ -349,7 +349,7 @@ body a:hover {
          width: 33%;
     }
 }
-@media (max-width:979px) and (min-width:720px){ 
+@media (max-width:979px) and (min-width:720px){
     body #wrapper-inner .site_contact_phone {
         margin-left: 0;
         margin-top: 0;
@@ -387,13 +387,13 @@ body a:hover {
         float: left;
     }
 }
-@media (max-width:559px) and (min-width:440px){ 
+@media (max-width:559px) and (min-width:440px){
     body .logo-wrapper .logo {
         margin-right: 2%;
         float: left;
     }
 }
-@media (max-width:439px) and (min-width:280px){ 
+@media (max-width:439px) and (min-width:280px){
     body .logo-wrapper .logo {
         margin-right: 2%;
         float: left;

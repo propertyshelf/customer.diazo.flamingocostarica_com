@@ -18,7 +18,7 @@
             /* Exapmple CSS*/
         </style>
     </after>
-    
+
     <rules css:if-content="#google-script">
         <append
             css:content="#google-script script"
@@ -26,12 +26,12 @@
         />
     </rules>
 
-	<rules css:if-not-content="#google-script">
-		<append
-			css:content="#portal-footer-wrapper script"
-			css:theme="body"
-		/>
-	</rules>
+  <rules css:if-not-content="#google-script">
+    <append
+      css:content="#portal-footer-wrapper script"
+      css:theme="body"
+    />
+  </rules>
 
     <rules css:if-content="#portal-personaltools .actionMenuHeader">
         <append
@@ -48,13 +48,13 @@
     </rules>
 
     <rules css:if-content="#portal-content-header">
-        <replace 
+        <replace
             css:content="#portal-content-header"
             css:theme="#content-header"
         />
     </rules>
 
-    <before 
+    <before
         css:content=".development__header"
         css:theme="#content"
         method="raw"
@@ -69,7 +69,7 @@
                 <a href="mailto:{$email}"><xsl:value-of select="$email" /></a>
             </div>
         </after>
-        
+
         <after css:theme-children=".site-social" method="raw">
             <div class="site_contact_phone">
                 <a href="tel:{$nr_phone}"><xsl:value-of select="$nr_phone_show" /></a>
