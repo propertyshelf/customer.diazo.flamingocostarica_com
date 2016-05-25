@@ -4,61 +4,58 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xi="http://www.w3.org/2001/XInclude">
 
+  <rules css:if-content="#visual-portal-wrapper">
+    <theme href="/++theme++customer.diazo.flamingocostarica_com/index.html" />
+    <!-- Header Rules -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/header-rules.xml" />
+    <!-- Viewlet Rules -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/viewlet-rules.xml" />
+    <!-- Portlet Rules -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/portlet-rules.xml" />
+    <!-- Content Rules -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/content-rules.xml" />
+    <!--Footer Rules -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/footer-rules.xml" />
+    <!--PS Slider -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/jssor-rules.xml" />
+    <!--Nvavigation -->
+    <xi:include href="/++theme++customer.diazo.flamingocostarica_com/rules/navigation-rules.xml" />
 
-    <rules css:if-content="#visual-portal-wrapper">
-        <theme href="/++theme++flamingocostarica/index.html" />
-        <!-- Header Rules -->
-        <xi:include href="/++theme++flamingocostarica/rules/header-rules.xml"/>
-        <!-- Viewlet Rules -->
-        <xi:include href="/++theme++flamingocostarica/rules/viewlet-rules.xml"/>
-        <!-- Portlet Rules -->
-        <xi:include href="/++theme++flamingocostarica/rules/portlet-rules.xml"/>
-        <!-- Content Rules -->
-        <xi:include href="/++theme++flamingocostarica/rules/content-rules.xml"/>
-        <!--Footer Rules -->
-        <xi:include href="/++theme++flamingocostarica/rules/footer-rules.xml"/>
-        <!--PS Slider -->
-        <xi:include href="/++theme++flamingocostarica/rules/jssor-rules.xml"/>
-        <!--Nvavigation -->
-        <xi:include href="/++theme++flamingocostarica/rules/navigation-rules.xml"/>
-
-
-        <before theme-children="/html/body" method="raw">
-            <xsl:attribute name="class">
-              <xsl:value-of select="/html/body/@class" />
-              <xsl:if css:test="#portal-column-one"> portal-col-one</xsl:if>
-              <xsl:if css:test="#portal-column-content"> portal-col-content</xsl:if>
-              <xsl:if css:test="#portal-column-two"> portal-col-two</xsl:if> header-<xsl:value-of select="$header_class"/>
-            </xsl:attribute>
-        </before>
+    <before theme-children="/html/body" method="raw">
+      <xsl:attribute name="class">
+        <xsl:value-of select="/html/body/@class" />
+        <xsl:if css:test="#portal-column-one"> portal-col-one</xsl:if>
+        <xsl:if css:test="#portal-column-content"> portal-col-content</xsl:if>
+        <xsl:if css:test="#portal-column-two"> portal-col-two</xsl:if>
+        header-<xsl:value-of select="$header_class" />
+      </xsl:attribute>
+    </before>
 
     <after css:theme-children="html head">
       <!-- Add custom stylesheet. -->
-      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/static/main.css" type="text/css" />
+      <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/main.css" type="text/css" />
 
       <!-- Add custom JavaScript. -->
-      <script src="{$portal_url}/++theme++flamingocostarica/static/main.js"></script>
-      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/bootstrap/css/bootstrap.min.css" type="text/css"/>
-      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/static/styles.css" type="text/css"/>
+      <script src="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/main.js"></script>
+      <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/bootstrap/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/styles.css" type="text/css" />
       <!--Include Google Fonts. -->
       <link href='http://fonts.googleapis.com/css?family=Sanchez|Open+Sans' rel='stylesheet' type='text/css' />
     </after>
-      
-    </rules>
-    <after css:theme-children=".logo-wrapper" method="raw">
-        <div class="header_descript">
-            <p><xsl:value-of select="$header_descript" /></p>
-        </div>
-    </after>
-     
-    <after css:theme-children=".logo-wrapper" method="raw">
-        <div class="site_contact_phone">
-            <p>Contact us:
-                <a href="tel:{$nr_phone}"><xsl:value-of select="$nr_phone_show" /></a>   
-            </p>
-        </div>
-    </after>
-    <drop
-        css:theme="#header-tools"
-    />
+  </rules>
+
+  <after css:theme-children=".logo-wrapper" method="raw">
+    <div class="header_descript">
+      <p><xsl:value-of select="$header_descript" /></p>
+    </div>
+  </after>
+
+  <after css:theme-children=".logo-wrapper" method="raw">
+    <div class="site_contact_phone">
+      <p>Contact us:
+        <a href="tel:{$nr_phone}"><xsl:value-of select="$nr_phone_show" /></a>
+      </p>
+    </div>
+  </after>
+  <drop css:theme="#header-tools" />
 </rules>
