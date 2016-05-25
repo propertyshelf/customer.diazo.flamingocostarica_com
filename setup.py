@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
 """Setup for customer.diazo.flamingocostarica_com package."""
 
-from setuptools import setup, find_packages
+from setuptools import (
+    find_packages,
+    setup,
+)
 
-version = '0.1dev'
+version = '0.1.dev0'
 description = 'Propertyshelf Flamingo Costa Rica Theme.'
 long_description = ('\n'.join([
     open('README.rst').read(),
+    'Contributors',
+    '------------\n',
+    open('CONTRIBUTORS.rst').read(),
     open('CHANGES.rst').read(),
 ]))
 
@@ -14,8 +20,9 @@ install_requires = [
     'setuptools',
     # -*- Extra requirements: -*-
     'plone.api',
-    'z3c.jbot',
+    'plone.app.theming',
     'ps.diazo.vanilla',
+    'z3c.jbot',
 ]
 
 setup(
@@ -29,6 +36,7 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Framework :: Plone',
+        'Framework :: Plone :: 4.1',
         'Framework :: Plone :: 4.2',
         'Framework :: Plone :: 4.3',
         'Intended Audience :: Developers',
@@ -40,8 +48,14 @@ setup(
     keywords='plone diazo',
     author='Propertyshelf, Inc.',
     author_email='development@propertyshelf.com',
-    url='https://github.com/propertyshelf/customer.diazo.flamingocostarica_com',
-    download_url='http://pypi.python.org/pypi/customer.diazo.flamingocostarica_com',
+    url='/'.join([
+        'https://github.com/propertyshelf',
+        'customer.diazo.flamingocostarica_com',
+    ]),
+    download_url='/'.join([
+        'https://github.com/propertyshelf',
+        'customer.diazo.flamingocostarica_com',
+    ]),
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
