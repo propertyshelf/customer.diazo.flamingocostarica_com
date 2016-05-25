@@ -6,17 +6,40 @@
 
 
     <rules css:if-content="#visual-portal-wrapper">
+        <theme href="/++theme++flamingocostarica/index.html" />
+        <!-- Header Rules -->
+        <xi:include href="/++theme++flamingocostarica/rules/header-rules.xml"/>
+        <!-- Viewlet Rules -->
+        <xi:include href="/++theme++flamingocostarica/rules/viewlet-rules.xml"/>
+        <!-- Portlet Rules -->
+        <xi:include href="/++theme++flamingocostarica/rules/portlet-rules.xml"/>
+        <!-- Content Rules -->
+        <xi:include href="/++theme++flamingocostarica/rules/content-rules.xml"/>
+        <!--Footer Rules -->
+        <xi:include href="/++theme++flamingocostarica/rules/footer-rules.xml"/>
+        <!--PS Slider -->
+        <xi:include href="/++theme++flamingocostarica/rules/jssor-rules.xml"/>
+        <!--Nvavigation -->
+        <xi:include href="/++theme++flamingocostarica/rules/navigation-rules.xml"/>
 
-    <!-- Include ps.diazo.vanilla as a base theme. -->
-    <xi:include href="/++theme++ps.diazo.vanilla/rules.xml"/>
+
+        <before theme-children="/html/body" method="raw">
+            <xsl:attribute name="class">
+              <xsl:value-of select="/html/body/@class" />
+              <xsl:if css:test="#portal-column-one"> portal-col-one</xsl:if>
+              <xsl:if css:test="#portal-column-content"> portal-col-content</xsl:if>
+              <xsl:if css:test="#portal-column-two"> portal-col-two</xsl:if> header-<xsl:value-of select="$header_class"/>
+            </xsl:attribute>
+        </before>
 
     <after css:theme-children="html head">
       <!-- Add custom stylesheet. -->
-      <link rel="stylesheet" href="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/main.css" type="text/css" />
+      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/static/main.css" type="text/css" />
 
       <!-- Add custom JavaScript. -->
-      <script src="{$portal_url}/++theme++customer.diazo.flamingocostarica_com/static/main.js"></script>
-
+      <script src="{$portal_url}/++theme++flamingocostarica/static/main.js"></script>
+      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/bootstrap/css/bootstrap.min.css" type="text/css"/>
+      <link rel="stylesheet" href="{$portal_url}/++theme++flamingocostarica/static/styles.css" type="text/css"/>
       <!--Include Google Fonts. -->
       <link href='http://fonts.googleapis.com/css?family=Sanchez|Open+Sans' rel='stylesheet' type='text/css' />
     </after>

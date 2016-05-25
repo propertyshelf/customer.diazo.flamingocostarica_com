@@ -1,3 +1,30 @@
+#edit-bar:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+#content hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #000;
+}
+
+#content h4 {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+#content h4:after {
+    content: ":";
+}
+
 body #content .documentFirstHeading {
     color: #5c4a3e;
 }
